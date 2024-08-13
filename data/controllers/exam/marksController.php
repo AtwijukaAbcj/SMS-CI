@@ -94,7 +94,7 @@ if (!$this->sms->is_allowed('Teacher')) {
                // subject
 
                 echo ' <div class="form-group has-feedback">
-                            <label>Select Subject</label>
+                            <label>Select Module</label>
                             <select id="subject_id" name ="subject_id" class="form-control select_class" style="width: 100%;" tabindex="-1" aria-hidden="true">
 
                                 <option value="0">Null</option>';

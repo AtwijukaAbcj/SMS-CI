@@ -57,9 +57,9 @@
 
                 <div class="info-box-content">
                     <div class="form-group">
-                        <label>Select Class</label>
+                        <label>Select Program</label>
                         <select id="select2" class="form-control select2 select2-hidden-accessible class_list" style="width: 100%;" tabindex="-1" aria-hidden="true">
-                            <option selected value="0">Select Class</option>
+                            <option selected value="0">Select Program</option>
                             <?php foreach ($list_class as $l_class): ?>
                                 <option value="<?php echo $l_class->id; ?>"><?php echo $l_class->name; ?></option>
                             <?php endforeach; ?>

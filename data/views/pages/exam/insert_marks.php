@@ -36,7 +36,7 @@
 <!--                    <form action="<?php echo base_url(); ?>subject/manage/add" name="add_subject" id="add_subject" method="post" accept-charset="utf-8">-->
                         
                           <div class="form-group has-feedback">
-                            <label>Select Class</label>
+                            <label>Select Program</label>
                             <select id="class_id" name ="class_id" class="form-control select_class" style="width: 100%;" tabindex="-1" aria-hidden="true">
 
                                 <option value="0">Null</option>
@@ -72,7 +72,7 @@
     </div>
     <div class="col-sm-12 col-md-8" id="">
         <div id="viewIt">
-            <div class="alert alert-info text-center"> Select class, exam and subject to insert marks</div>
+            <div class="alert alert-info text-center"> Select Program, exam and subject to insert marks</div>
         </div>
     </div>
 </div>

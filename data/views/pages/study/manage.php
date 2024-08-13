@@ -40,7 +40,7 @@
                         <div class="row">
                            
                             <div class="col-sm-8">
-                                <div id="initial"><h4>Select Class and Subject to view available materials.</h4></div>
+                                <div id="initial"><h4>Select Program and Subject to view available materials.</h4></div>
                                 <div id="listMaterial">
                                     
                                 </div>

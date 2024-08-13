@@ -55,7 +55,7 @@
                          <div class="form-group">
                             <label>Class</label>
                             <select   name="class_id" class="form-control select2 select2-hidden-accessible list_class" style="width: 100%;" tabindex="-1" aria-hidden="true">
-                                <option value="0" selected="selected">Select Class</option>
+                                <option value="0" selected="selected">Select Program</option>
                                 <?php
                                 foreach ($list_class As $class) {
 
@@ -145,7 +145,7 @@
                         <div class="form-group">
                             <label>Class</label>
                             <select   name="class_id" class="form-control select2 select2-hidden-accessible list_class" style="width: 100%;" tabindex="-1" aria-hidden="true">
-                                <option value="0" selected="selected">Select Class</option>
+                                <option value="0" selected="selected">Select Programs</option>
                                 <?php
                                 foreach ($list_class As $class) {
 
@@ -199,7 +199,7 @@
              
             </div>
             <div class='list_ac_fees'>
-                <h3>Select class to view Fees</h3>
+                <h3>Select Programs to view Fees</h3>
                 <hr/>
             </div>
         </div>

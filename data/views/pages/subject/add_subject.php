@@ -6,7 +6,7 @@
 <!--                    <form action="<?php echo base_url(); ?>subject/manage/add" name="add_subject" id="add_subject" method="post" accept-charset="utf-8">-->
                         
                           <div class="form-group has-feedback">
-                            <label>Select Class</label>
+                            <label>Select Program</label>
                             <select id="subject_class_id" name ="subject_class_id" class="form-control select_class" style="width: 100%;" tabindex="-1" aria-hidden="true">
 
                                 <option value="0"  >Null</option>
@@ -23,8 +23,8 @@
                         </div>
                         
                         <div class="form-group has-feedback">
-                            <label>Subject Name</label>
-                            <input   type="text" name="name" id="name" class="form-control" placeholder="Subject Name">
+                            <label>Module Name</label>
+                            <input   type="text" name="name" id="name" class="form-control" placeholder="Module Name">
                             <span class="fa fa-terminal form-control-feedback"></span>
                             <div id="name"></div>
                         </div>
@@ -67,7 +67,7 @@
                             .removeClass('has-success');
                     $('.text-danger').remove();
                       $('#recently_added').fadeIn("slow");
-                    $('#recently_added').append("<b> Subject Name: </b>"+name+"<br><hr>");
+                    $('#recently_added').append("<b> Module Name: </b>"+name+"<br><hr>");
                      $('#name').val("");
                     $.notify("Subject Added!","success");
                    
@@ -101,7 +101,7 @@
        
         if(class_id==0){
               $('.list_subject').empty();
-            $('.list_subject').append("<h4>Select Class to view current subjects</h4>");
+            $('.list_subject').append("<h4>Select Program to view current subjects</h4>");
         }else{
             
         $.ajax({

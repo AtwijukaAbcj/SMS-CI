@@ -43,7 +43,7 @@
 <input type="hidden" name="<?php echo $this->security->get_csrf_token_name();?>" value="<?php echo $this->security->get_csrf_hash();?>">
                        
                           <div class="form-group has-feedback">
-                            <label>Select Class</label>
+                            <label>Select Program</label>
                             <select id="class_id" name ="class_id" class="form-control select_class" style="width: 100%;" tabindex="-1" aria-hidden="true">
 
                                 <option value="0">Null</option>
@@ -73,7 +73,7 @@
            
 <div id="listResult">
 
-    <div class='alert alert-info'>Select class, exam and subject to view your result.</div>
+    <div class='alert alert-info'>Select Program, exam and subject to view your result.</div>
     </div>
              
         </div>

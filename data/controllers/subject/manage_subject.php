@@ -29,7 +29,7 @@ class Manage_subject extends CI_Controller{
         $this->form_validation->set_rules("subject_class_id", "Class Name", "select");
        
         
-                $this->form_validation->set_rules("name", "Subject Name", "trim|required|unique_subject");
+                $this->form_validation->set_rules("name", "Module Name", "trim|required|unique_subject");
 
      
         if ($this->form_validation->run() == FALSE) {
@@ -57,7 +57,7 @@ class Manage_subject extends CI_Controller{
         $data = array('success' => FALSE, 'msg' => array(), 'server_msg'=>NULL);
         $this->load->library('form_validation');
         $this->form_validation->set_error_delimiters('<p class="text-danger">', '</p>');
-        $this->form_validation->set_rules("subject_id", "Subject Name", "select");
+        $this->form_validation->set_rules("subject_id", "Module Name", "select");
          $this->form_validation->set_rules("class_id", "Class Name", "select");
         //$this->form_validation->set_rules("teacher_id", "Teacher", "select");
         
@@ -89,7 +89,7 @@ class Manage_subject extends CI_Controller{
         $data = array('success' => FALSE, 'msg' => array(), 'server_msg'=>NULL);
         $this->load->library('form_validation');
         $this->form_validation->set_error_delimiters('<p class="text-danger">', '</p>');
-        $this->form_validation->set_rules("edit_subject_name", "Subject Name", "trim|required");
+        $this->form_validation->set_rules("edit_subject_name", "Module Name", "trim|required");
         $this->form_validation->set_rules("subject_id", "Subject ID", "trim|required|is_subject_id");
            $this->form_validation->set_message("is_unique", "You do not make any change");
         if ($this->form_validation->run() == FALSE) {

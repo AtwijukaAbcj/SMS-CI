@@ -49,7 +49,7 @@
                             <div class="col-sm-8">
                              
                                 <div id="listSyllabus">
-                                    <h3>Select Class and Subject to view syllabus.</h3>
+                                    <h3>Select Program and Module to view syllabus.</h3>
                                 </div>
                             </div>
                         </div>

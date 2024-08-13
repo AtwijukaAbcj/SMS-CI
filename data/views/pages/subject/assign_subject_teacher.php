@@ -5,7 +5,7 @@
                     <form action="<?php echo base_url(); ?>subject/manage/assign_subject_teacher" name="assign_subject_teacher" id="assign_subject_teacher" method="post" accept-charset="utf-8">
                         <input type="hidden" name="<?php echo $this->security->get_csrf_token_name();?>" value="<?php echo $this->security->get_csrf_hash();?>">
                          <div class="form-group">
-                            <label>Select Class</label>
+                            <label>Select Program</label>
                             <select required=" " id="class_id" name ="class_id" class="form-control select2 select2-hidden-accessible class_list" style="width: 100%;" tabindex="-1" aria-hidden="true">
 
                                 <option  value="0" selected="selected">Null</option>
@@ -22,9 +22,9 @@
                         </div>
                        
                         <div class="form-group">
-                            <label>Select Subject</label>
+                            <label>Select Module</label>
                             <select required="" id="subject_id" name ="subject_id" class="form-control  subject_list" style="width: 100%;" tabindex="-1" aria-hidden="true">
-                                <option value="0" selected="selected">Select Subject</option>
+                                <option value="0" selected="selected">Select Module</option>
                             </select>
                         </div>
                                <div class="form-group">
@@ -127,7 +127,7 @@
         class_id = $(this).val();
         if(class_id==0){
               $('.list_subject1').empty();
-            $('.list_subject1').append("<h4>Select Class to view current subjects</h4>");
+            $('.list_subject1').append("<h4>Select Program to view current subjects</h4>");
         }else{
         $.ajax({
             url: "<?php echo base_url("subject/views/view_subject"); ?>",

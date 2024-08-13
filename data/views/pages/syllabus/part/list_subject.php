@@ -9,7 +9,7 @@
         . ' <div class="form-group">
                             <label>Subject</label>
                             <select   name="subject_id" class="form-control list_subject" style="width: 100%;" tabindex="-1" aria-hidden="true">
-                                <option value="0" selected="selected">Select Subject</option>';
+                                <option value="0" selected="selected">Select Module</option>';
      
         foreach ($subjects as $subject){
            

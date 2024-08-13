@@ -27,7 +27,7 @@
             </div>
             <div class="col-sm-6">
               <div class="form-group">
-                            <label>Select Subject</label>
+                            <label>Select Module</label>
                             <select id="subject_id" name ="subject_id" class="form-control select2 select2-hidden-accessible" style="width: 100%;" tabindex="-1" aria-hidden="true">
 
                                 <option value="0" selected="selected">Null</option>

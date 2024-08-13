@@ -55,7 +55,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="list_subject">
-                                    <h4>Select Class to view current subjects</h4>
+                                    <h4>Select Program to view current subjects</h4>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="list_subject1">
-                                    <h4>Select Class to view current subjects</h4>
+                                    <h4>Select Program to view current subjects</h4>
                                 </div>
                             </div>
                         </div>

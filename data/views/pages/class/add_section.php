@@ -9,7 +9,7 @@
                                 <form action="<?php echo base_url(); ?>class/manage/add_section"  id="add_section_post" method="post" accept-charset="utf-8">
                                   <input type="hidden" name="<?php echo $this->security->get_csrf_token_name();?>" value="<?php echo $this->security->get_csrf_hash();?>">
                                     <div class="form-group has-feedback">
-                                        <label>Select Class</label>
+                                        <label>Select Program</label>
                                         <select  name ="class_id" class="form-control select2 select2-hidden-accessible" style="width: 100%;" tabindex="-1" aria-hidden="true">
 
                                            <?php

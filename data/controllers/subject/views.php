@@ -22,7 +22,7 @@ class Views extends CI_Controller{
         public function index(){
                          $data['class_lists'] = $this->sms_class->list_class();
 
-             $data['page_title'] = "Manage Subject";
+             $data['page_title'] = "Manage Modules";
         $data['page_slogan'] = "SMS";
         $data['main_content'] = "pages/subject/manage";
       
@@ -52,7 +52,7 @@ class Views extends CI_Controller{
             } 
             $class = $this->input->post('class_id');
             if($class!=0){
-           echo ' <option value="0" selected="selected">Select Subject</option>';
+           echo ' <option value="0" selected="selected">Select Module</option>';
             foreach ($this->subject->list_subject($class) as $subject){
                 if($subject->teacher_id!=0 ){
                    $name=  " (Teacher => ".$this->sms->get_user($subject->teacher_id)->full_name.")";
