@@ -1,7 +1,7 @@
  <!-- Visit "codeastro.com" for more projects! -->
  <div class="box ">
                 <div class="box-header bg-purple">
-                    <h4>Add Class</h4>
+                    <h4>Add Program</h4>
 
                 </div>
                 <div class="box-body">

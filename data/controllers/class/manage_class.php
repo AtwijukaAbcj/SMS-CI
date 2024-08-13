@@ -19,7 +19,7 @@ class Manage_class extends CI_Controller {
     public function index() {
 
 
-        $data['page_title'] = "Manage Class";
+        $data['page_title'] = "Manage Programs";
         $data['page_slogan'] = "SMS";
         $data['main_content'] = "pages/class/manage";
        // $data['list_teachers'] = $this->sms->list_users('Teacher');

@@ -105,13 +105,13 @@
                <li class="treeview">
           <a href="#">
             <i class="fa fa fa-th"></i>
-            <span>Classroom</span>
+            <span>Program</span>
             <span class="label label-primary pull-right"></span>
             <i class="fa fa fa-angle-down pull-right"></i>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url() ?>class/manage"><i class="fa fa-building"></i>Manage Class</a></li>
-            <li><a href="<?php echo base_url() ?>subject/manage"><i class="fa fa-building"></i>Manage Subjects</a></li>
+            <li><a href="<?php echo base_url() ?>class/manage"><i class="fa fa-building"></i>Manage Programs</a></li>
+            <li><a href="<?php echo base_url() ?>subject/manage"><i class="fa fa-building"></i>Manage Modules</a></li>
            
             <li><a href="<?php echo base_url() ?>syllabus"><i class="fa fa-book"></i>Manage Syllabus</a></li>
             
@@ -183,7 +183,7 @@
         <li class="treeview">
           <a href="#">
             <i class="fa fa fa-th"></i>
-            <span>Classroom</span>
+            <span>Program</span>
             <span class="label label-primary pull-right"></span>
             <i class="fa fa fa-angle-down pull-right"></i>
           </a>
