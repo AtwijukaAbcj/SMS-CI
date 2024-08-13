@@ -9,14 +9,14 @@
                     <form action="<?php echo base_url(); ?>class/manage/add_class" name="add_class" id="add_class" method="post" accept-charset="utf-8">
 <input type="hidden" name="<?php echo $this->security->get_csrf_token_name();?>" value="<?php echo $this->security->get_csrf_hash();?>">
  <div class="form-group has-feedback">
-                            <label>Class In Numeric</label>
-                            <input   type="text" name="class_number" class="form-control" placeholder="Class Numeric">
+                            <label>Program In Numeric</label>
+                            <input   type="text" name="class_number" class="form-control" placeholder="Program Numeric">
                             <span class="fa fa-terminal form-control-feedback"></span>
                             <div id="class_number"></div>
                         </div>                        
 <div class="form-group has-feedback">
-                            <label>Class Name</label>
-                            <input   type="text" name="class_name" class="form-control" placeholder="Class Name">
+                            <label>Program Name</label>
+                            <input   type="text" name="class_name" class="form-control" placeholder="Program Name">
                             <span class="fa fa-terminal form-control-feedback"></span>
                             <div id="class_name"></div>
                         </div>

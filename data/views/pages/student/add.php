@@ -124,7 +124,7 @@
                 <!-- Class-->
 
                 <div class="form-group">
-                    <label>Class</label>
+                    <label>Program</label>
                     <select   name="class_id" class="form-control select2 select2-hidden-accessible list_class" style="width: 100%;" tabindex="-1" aria-hidden="true">
                         <option value="0" selected="selected">Select Program</option>
                         <?php foreach($list_class As $class){

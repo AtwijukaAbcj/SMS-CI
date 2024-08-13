@@ -34,7 +34,7 @@ class Debug extends CI_Controller {
 //                echo $v->name."|"; 
 //            }
 //          if($this->sms->get_user($value->teacher_id, "Teacher") !=FALSE){
-//              echo "<br/>Class Teacher is: ". $this->sms->get_user($value->teacher_id, "Teacher")->full_name."<br>";
+//              echo "<br/>Program Head is: ". $this->sms->get_user($value->teacher_id, "Teacher")->full_name."<br>";
 //          }
 //       }
 //    var_dump($this->sms_class->is_class_teacher(37));

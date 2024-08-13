@@ -146,7 +146,7 @@
 
             <div class="info-box-content">
               <span class="info-box-text">Fees Collected</span>
-              <span class="info-box-number">$<?php $query = $this->db->query('SELECT SUM( amount)as total FROM sms_account_monthly_payment')->row(); echo floatval($query->total);?></span>
+              <span class="info-box-number">UGX<?php $query = $this->db->query('SELECT SUM( amount)as total FROM sms_account_monthly_payment')->row(); echo floatval($query->total);?></span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -244,7 +244,7 @@
                 <li><a href="syllabus">Syllabus</a></li>
                 <li><a href="exam">Examination Result</a></li>
                 <li><a href="account/manage">Accounting Department</a></li>
-                <li><a href="class/manage">Class Management</a></li>
+                <li><a href="class/manage">Program Management</a></li>
                 <li><a href="study">Study Material</a></li>
                 <li><a href="library/manage">Library</a></li>
               </ul>

@@ -38,9 +38,9 @@ class Manage_class extends CI_Controller {
         $data1 = array('success' => FALSE, 'msg' => array(), 'server_msg'=>NULL);
         $this->load->library('form_validation');
         $this->form_validation->set_error_delimiters('<p class="text-danger">', '</p>');
-        $this->form_validation->set_rules("class_name", "Class Name", "trim|required|alpha|is_unique[sms_class.name]");
+        $this->form_validation->set_rules("class_name", "Program Name", "trim|required|alpha|is_unique[sms_class.name]");
         
-        $this->form_validation->set_rules("class_number", "Class Numeric", "trim|required|is_natural_no_zero|is_unique[sms_class.num]");
+        $this->form_validation->set_rules("class_number", "Program Numeric", "trim|required|is_natural_no_zero|is_unique[sms_class.num]");
         $this->form_validation->set_message('is_unique',"Class Already Exists!");
        // $this->input->post('');
         if ($this->form_validation->run() == FALSE) {

@@ -115,7 +115,7 @@
                         <th>Image</th>
                         <th>Full Name</th>
                         <th>Email</th>
-                        <th>Class</th>
+                        <th>Program</th>
                         <th>Section</th>
                         <th>Roll</th>
                         <th>Address</th>
