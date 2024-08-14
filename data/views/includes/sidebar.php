@@ -67,7 +67,7 @@
         <li class="treeview">
           <a href="#">
             <i class="fa fa fa-users"></i>
-            <span>Teacher</span>
+            <span>Lecturer</span>
             <span class="label label-primary pull-right"></span>
             <i class="fa fa fa-angle-down pull-right"></i>
           </a>
@@ -75,9 +75,9 @@
             <?php  if($this->sms->is_allowed('Admin')){
     
 ?>
-            <li><a href="<?php echo base_url() ?>teacher/add"><i class="fa fa-user-plus"></i> Add Teacher</a></li>
+            <li><a href="<?php echo base_url() ?>teacher/add"><i class="fa fa-user-plus"></i> Add Lecturer</a></li>
             <?php } ?>
-            <li><a href="<?php echo base_url() ?>teacher/view"><i class="fa fa-info"></i> View Teacher</a></li>
+            <li><a href="<?php echo base_url() ?>teacher/view"><i class="fa fa-info"></i> View Lecturer</a></li>
           
          <!-- Visit "codeastro.com" for more projects! -->
           </ul>

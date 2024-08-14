@@ -21,8 +21,8 @@ class Teacher_add extends CI_Controller {
     public function index() {
 
 
-        $data['page_title'] = "Teacher Registration";
-        $data['page_slogan'] = "SMS";
+        $data['page_title'] = "Lecturer Registration";
+        $data['page_slogan'] = "";
         $data['main_content'] = "pages/teacher/add";
         $this->load->view("layout/form", $data);
     }

@@ -52,7 +52,7 @@
         </div>
         <div class="box">
             <div class="box-header">
-              <h3 class="box-title">List of Teacher</h3>
+              <h3 class="box-title">Lecturers</h3>
            
             </div>
             <!-- /.box-header -->

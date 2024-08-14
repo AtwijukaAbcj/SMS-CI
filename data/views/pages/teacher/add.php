@@ -18,8 +18,8 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="<?php echo base_url(); ?>"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a><i class="fa fa-user"></i>Teacher</a></li>
-        <li><a><i class="fa fa-user-plus active"></i> Add Teacher</a></li>
+        <li><a><i class="fa fa-user"></i>Lecturer</a></li>
+        <li><a><i class="fa fa-user-plus active"></i> Add Lecturer</a></li>
 
     </ol>
 </section>
@@ -135,7 +135,7 @@
                               <div id="error_msg"></div>
                         </div>
                         <div class="form-group right">
-                            <button  type="submit" class="btn btn-flat btn-success">Add Teacher</button>
+                            <button  type="submit" class="btn btn-flat btn-success">Add Lecturer</button>
                         </div>
                     </div>
 

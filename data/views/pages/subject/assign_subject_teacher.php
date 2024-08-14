@@ -28,7 +28,7 @@
                             </select>
                         </div>
                                <div class="form-group">
-                            <label>Select Teacher</label>
+                            <label>Select Lecturer</label>
                             <select required="" id="teacher_id" name ="teacher_id" class="form-control select2 select2-hidden-accessible " style="width: 100%;" tabindex="-1" aria-hidden="true">
 
                                 <option value="0" selected="selected">Null</option>
@@ -45,7 +45,7 @@
                         </div>               
                    
                         <div class="form-group has-feedback">
-                            <button class="btn btn-success" type="submit" >Assign Teacher</button>
+                            <button class="btn btn-success" type="submit" >Assign Lecturer</button>
                         </div>     
 
 
