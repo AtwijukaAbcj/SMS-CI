@@ -10,13 +10,13 @@
  <!-- Visit "codeastro.com" for more projects! -->
 <div class="box">
     
-    <div class="box-header"><b>List of Subjects</b></div>
+    <div class="box-header"><b>List of Modules</b></div>
     <div class="well" id="recently_added" style="display:none"  >
-        <h4>Recently Added Subject</h4>
+        <h4>Recently Added Modules</h4>
     </div>
 <table class="table table-hover table-bordered">
     <tr>
-        <th>Subject</th>
+        <th>Modules</th>
       
         <th>Teacher</th>
        
@@ -77,7 +77,7 @@
                             .removeClass('has-success');
                     $('.text-danger').remove();
                      
-                    $.notify("Subject Updated!","success");
+                    $.notify("Module Updated!","success");
                    
                     
 
@@ -123,7 +123,7 @@
                             .removeClass('has-success');
                     $('.text-danger').remove();
                      
-                    $.notify("Subject Deleted!","success");
+                    $.notify("Module Deleted!","success");
                    
                     
 
@@ -155,4 +155,4 @@
 </table>
    
 </div>
-   <?php  }else {echo "Subject is not assign yet!";}?>
+   <?php  }else {echo "Module is not assign yet!";}?>

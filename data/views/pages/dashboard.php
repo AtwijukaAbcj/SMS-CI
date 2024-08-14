@@ -24,7 +24,7 @@
 
             <div class="info-box-content">
                <div class="form-group">
-                <label>Running Session</label>
+                <label>Running Sessions</label>
                 <select id="select2" class="form-control select2 select2-hidden-accessible view_session" style="width: 100%;" tabindex="-1" aria-hidden="true">
                     <option selected  disabled>(<?php echo $running_session;?>)</option>
                     <optgroup>                   
