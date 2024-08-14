@@ -40,7 +40,7 @@
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#subject_home" data-toggle="tab">Add Subject</a></li>
 
-                    <li><a href="#assign_teacher" data-toggle="tab">Assign Teacher</a></li>
+                    <li><a href="#assign_teacher" data-toggle="tab">Assign Lecturer</a></li>
                    
 
                 </ul>

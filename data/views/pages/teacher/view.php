@@ -52,7 +52,7 @@
         </div>
         <div class="box">
             <div class="box-header">
-              <h3 class="box-title">List of Teacher</h3>
+              <h3 class="box-title">Lecturers</h3>
            
             </div>
             <!-- /.box-header -->
@@ -103,7 +103,7 @@
                     <?php } ?>
                     <?php if($this->sms->is_allowed('Admin')){ ?>
                     <li class="divider"></li>
-                    <li><a href="#" onclick="banUser('<?php echo $this->encrypt->encode($teacher->id) ?>')">Banned Teacher</a></li>
+                    <li><a href="#" onclick="banUser('<?php echo $this->encrypt->encode($teacher->id) ?>')">Banned Lecturer</a></li>
                     <?php } ?>
                   </ul>
                 </div></td>

@@ -22,8 +22,8 @@ class Teacher_view extends CI_Controller {
     
     public function index(){
         
-        $data['page_title'] = "View Teacher";
-        $data['page_slogan'] = "SMS";
+        $data['page_title'] = "View Lecturer";
+        $data['page_slogan'] = "";
        $data['main_content']= "pages/teacher/view";
        $data['list_teachers']= $this->sms->list_users('Teacher', $limit = FALSE, $offset = FALSE, $include_banneds = FALSE);
         $this->load->view("layout/data",$data );
